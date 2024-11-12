@@ -84,7 +84,7 @@ nav ul li ul.dropdown li a:hover {
 
 /* Banner */
 .banner {
-    background-image: url(images/core/banner.jpg');
+    background-image: url('images/core/pexels-mrwson-4275885.jpg');
     background-size: cover; /* Memastikan gambar menutupi seluruh area */
     background-position: center center; /* Menjaga gambar tetap terpusat */
     height: 300px; /* Atur tinggi banner */
