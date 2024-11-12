@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desa Karangputih</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+    <div class="header-top">
+        <span>Desa Karangputih | Kabupaten Tasikmalaya</span>
+    </div>
+    <div class="header-main">
+        <!-- Logo dan Teks Identitas Desa -->
+        <div class="logo-container">
+            <img src="images/core/logo.png" alt="Logo Desa Karangputih">
+            <div class="desaname">Desa Karangputih</div>
+        </div>
+        
+        <!-- Burger Menu -->
+        <div class="burger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        
+        <!-- Navigasi -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="#">Berita</a></li>
+                <li><a href="#">Program</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Ekonomi</a></li>
+                        <li><a href="#">Pendidikan</a></li>
+                        <li><a href="#">Kesehatan</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <!-- Banner Selamat Datang -->
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Selamat Datang di Desa Karangputih</h1>
+            <p>Desa yang kaya akan potensi dan budaya.</p>
+        </div>
+    </section>
+    
+    <main>
+        <!-- Konten utama di sini -->
+        <!-- Misalnya bagian berita -->
+        <section class="news-section">
+            <h2>Berita Terbaru</h2>
+            <div class="news-grid">
+                <div class="news-item">
+                    <img src="images/content/berita1.jpg" alt="Berita 1">
+                    <h3>Judul Berita 1</h3>
+                    <p>Ringkasan berita pertama yang menarik.</p>
+                    <a href="#">Baca Selengkapnya</a>
+                </div>
+                <div class="news-item">
+                    <img src="images/content/berita2.jpg" alt="Berita 2">
+                    <h3>Judul Berita 2</h3>
+                    <p>Ringkasan berita kedua yang menarik.</p>
+                    <a href="#">Baca Selengkapnya</a>
+                </div>
+                <!-- Tambahkan berita lain jika perlu -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Desa Karangputih</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
