@@ -1,0 +1,24 @@
+/* Warna tema */
+body {
+    background-color: #f4f4f4;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ddd;
+}
+
+/* Efek hover pada navigasi */
+nav ul li a {
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #004d00;
+    border-radius: 4px;
+}
